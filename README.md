@@ -83,4 +83,4 @@ This command generates the zip file (e.g., build/chrome-mv3-prod.zip) needed for
 
 ## Submit to the webstores
 
-The easiest way to deploy your Plasmo extension is to use the built-in bpp GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow the setup instruction and you should be on your way for automated submission.
+The easiest way to deploy your Plasmo extension is to use the built-in [bpp GitHub action](https://docs.plasmo.com/framework/workflows/deployment). Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow the [setup instruction](https://docs.plasmo.com/framework/workflows/deployment) on that page, and you should be on your way for automated submission!
