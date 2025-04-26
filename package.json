@@ -4,10 +4,13 @@
   "version": "0.0.1",
   "description": "A quick and dirty browser extension to help quickly retrieved archived versions of webpages",
   "author": "dkendall100@gmail.com",
+  "type": "module",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
-    "package": "plasmo package"
+    "package": "plasmo package",
+    "lint": "eslint . ",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "bip39": "3.1.0",
@@ -23,12 +26,24 @@
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
+    "eslint": "^9.25.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "globals": "^16.0.0",
     "prettier": "3.2.4",
-    "typescript": "5.3.3"
+    "typescript": "5.3.3",
+    "typescript-eslint": "^8.31.0"
   },
   "manifest": {
+    "permissions": [
+      "tabs",
+      "notifications",
+      "scripting",
+      "activeTab",
+      "offscreen"
+    ],
     "host_permissions": [
-      "https://*/*"
+      "https://archive.md/*"
     ],
     "commands": {
       "test": {
@@ -37,6 +52,21 @@
         },
         "description": "Open the extension main popup"
       }
-    }
+    },
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "assets/icon.png",
+          "assets/icon16.png",
+          "assets/icon48.png",
+          "assets/icon128.png",
+          "offscreen.html",
+          "offscreen.js"
+        ],
+        "matches": [
+          "<all_urls>"
+        ]
+      }
+    ]
   }
 }
