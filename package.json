@@ -2,7 +2,7 @@
   "name": "firewall",
   "displayName": "Firewall",
   "version": "0.0.1",
-  "description": "Extracts the original URL from an archive.md page. Click the icon on any webpage to attempt finding and opening the underlying link from its archive.md snapshot. Shows an error dialog if unsuccessful. Error dialog requires proper system and chrome permissions.",
+  "description": "Extracts original URL from archive.md page. Click icon to find & open underlying link. Shows error dialog on failure.",
   "author": "dkendall100@gmail.com",
   "type": "module",
   "scripts": {
