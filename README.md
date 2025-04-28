@@ -2,6 +2,8 @@
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
+Here's [an example](https://www.youtube.com/watch?v=2G_CAr3tH9E) retrieving an archived NYT article. 
+
 ## Description
 
 Firewall is a simple Chrome browser extension designed to quickly retrieve an underlying link from an `archive.md` page. When you click the extension icon while viewing a webpage, it attempts to:
@@ -30,7 +32,7 @@ pnpm dev
 
 Open your browser and load the appropriate development build. For example, if you are developing for the Chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
 
-You can start editing the core logic by modifying `background.ts`, the offscreen document (`offscreen.html`, `offscreen.js`), or the error dialog (`dialog.html`, `dialog.js`). The extension should auto-update in development mode as you make changes (you might need to manually reload for some background script changes).
+You can start editing the core logic by modifying `background.ts`, or the offscreen document (`offscreen.html`, `offscreen.js`). The extension should auto-update in development mode as you make changes (you might need to manually reload for some background script changes).
 
 For further guidance on the Plasmo framework, visit the [Plasmo Documentation](https://docs.plasmo.com/).
 
