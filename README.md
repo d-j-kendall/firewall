@@ -1,6 +1,6 @@
 # Firewall - Archive.md Link Extractor Extension
 
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`pnpm create plasmo firewall`](https://www.npmjs.com/package/plasmo).
 
 Here's [an example](https://www.youtube.com/watch?v=2G_CAr3tH9E) retrieving an archived NYT article. 
 
