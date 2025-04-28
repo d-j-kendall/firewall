@@ -75,7 +75,7 @@ This project requires pnpm to build correctly. Run the following command:
 pnpm build
 ```
 
-This will create a production bundle for your extension in the appropriate build directory (e.g., `build/chrome-mv3-prod`), ready to be zipped and published to the stores.
+This will create a production bundle for your extension in the appropriate build directory (e.g., `build/chrome-mv3-prod`), ready to be zipped (`pnpm package`) and published to the stores.
 
 ## Packaging for Distribution
 
