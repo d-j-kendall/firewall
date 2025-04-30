@@ -36,7 +36,6 @@
   },
   "manifest": {
     "permissions": [
-      "tabs",
       "notifications",
       "activeTab",
       "offscreen"
